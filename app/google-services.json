@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "68019484975",
+    "firebase_url": "https://ufc-crane.firebaseio.com",
+    "project_id": "ufc-crane",
+    "storage_bucket": "ufc-crane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68019484975:android:30303453aca369ac",
+        "android_client_info": {
+          "package_name": "com.example.jonat.services"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68019484975-dapckh719t1c74r79ab8h2nong8bmrnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jonat.services",
+            "certificate_hash": "00bd168fcc922fb8c98fd5461ef39294985ea92a"
+          }
+        },
+        {
+          "client_id": "68019484975-a72oghh0p1jqvuoa3v83qvofq5ium8ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdxKADICfznlmCTERhTJq2_5JBosyKr6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68019484975-a72oghh0p1jqvuoa3v83qvofq5ium8ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
