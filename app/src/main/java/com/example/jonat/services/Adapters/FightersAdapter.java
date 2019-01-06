@@ -1,7 +1,7 @@
 package com.example.jonat.services.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -55,15 +55,16 @@ public class FightersAdapter extends RecyclerView.Adapter<FightersAdapter.Fighte
         this.mCallbacks = mCallbacks;
     }
 
+    @NonNull
     @Override
-    public FightersAdapter.FightersViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public FightersAdapter.FightersViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(rowLayout, parent, false);
         return new FightersAdapter.FightersViewHolder(view);
     }
 
 
     @Override
-    public void onBindViewHolder(final FightersAdapter.FightersViewHolder holder, final int position) {
+    public void onBindViewHolder(@NonNull final FightersAdapter.FightersViewHolder holder, final int position) {
 
         final Fighters mItems =  itemsList.get(position);
         holder.items = mItems;

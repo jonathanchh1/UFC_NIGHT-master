@@ -6,10 +6,5 @@
     <color name="white">#FFFF</color>
     <color name="dark_grey">#504f4f</color>
     <color name="share_matte">#4065cc</color>
-    <color name="medium_grey">#686464</color>
     <color name="favorite_matte">#f12222</color>
-    <color name="highlight_divider_color">#FFCC55</color>
-    <color name="dark_divider_color">#222222</color>
-    <color name="light_divider_color">#CCCCCC</color>
-    <color name="black_opacity_66">#AA000000</color>
 </resources>
