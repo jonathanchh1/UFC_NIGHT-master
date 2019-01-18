@@ -5,13 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.jonat.services.R;
 
-public class EventActivity extends AppCompatActivity {
-
-    public static final String Args = "arguments";
+public class MediaDetailsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_media_detail);
     }
 }
