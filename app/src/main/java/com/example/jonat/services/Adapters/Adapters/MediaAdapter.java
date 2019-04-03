@@ -1,4 +1,4 @@
-package com.example.jonat.services.Adapters;
+package com.example.jonat.services.Adapters.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -28,7 +28,7 @@ import java.util.List;
  * Created by jonat on 10/11/2017.
  */
 
-public class MediaAdapters extends RecyclerView.Adapter<MediaAdapters.MediaViewHolder> {
+public class MediaAdapter extends RecyclerView.Adapter<MediaAdapter.MediaViewHolder> {
 
     private final Callbacks mCallbacks;
     private final Medias mMedias = new Medias();
@@ -36,7 +36,7 @@ public class MediaAdapters extends RecyclerView.Adapter<MediaAdapters.MediaViewH
     private int rowLayout;
     private Context context;
 
-    public MediaAdapters(List<Medias> medias, int rowLayout, Context context, Callbacks mCallbacks) {
+    public MediaAdapter(List<Medias> medias, int rowLayout, Context context, Callbacks mCallbacks) {
         this. itemsList = medias;
         this.rowLayout = rowLayout;
         this.context = context;
@@ -65,14 +65,14 @@ public class MediaAdapters extends RecyclerView.Adapter<MediaAdapters.MediaViewH
     }
 
     @Override
-    public MediaAdapters.MediaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public MediaAdapter.MediaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(rowLayout, parent, false);
-        return new MediaAdapters.MediaViewHolder(view);
+        return new MediaAdapter.MediaViewHolder(view);
     }
 
     @SuppressLint("StaticFieldLeak")
     @Override
-    public void onBindViewHolder(final MediaAdapters.MediaViewHolder holder, final int position) {
+    public void onBindViewHolder(final MediaAdapter.MediaViewHolder holder, final int position) {
 
         final Medias mItems =  itemsList.get(position);
         holder.items = mItems;
