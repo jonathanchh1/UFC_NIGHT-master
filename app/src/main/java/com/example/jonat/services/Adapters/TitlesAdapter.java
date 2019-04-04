@@ -29,8 +29,7 @@ public class TitlesAdapter extends RecyclerView.Adapter<TitlesAdapter.TitleViewH
     private int rowLayout;
     private Context context;
 
-
-
+    
     public TitlesAdapter(List<Title> titles, int rowLayout, Context context, Callbacks mCallbacks) {
         this. itemsList = titles;
         this.rowLayout = rowLayout;
